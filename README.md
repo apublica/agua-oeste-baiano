@@ -16,7 +16,7 @@ A partir do texto das portarias, fizemos a busca com editores de planilhas por e
 * Data de publicação
 * Documento (CPF ou CNPJ)
 * Nome/Razão social
-* Bacia hidrográfica = Rio Grande, Rio Corrente e Rio São Francisco
+* Bacia hidrográfica
 * Município
 * Validade da outorga
 * Vazão (soma de todos os pontos de captação)
