@@ -4,7 +4,6 @@ Repositório para documentar os dados e a metodologia da análise de dados da re
 ## Como utilizar este repositório:
 * Em `dados` estão as portarias em formato CSV;
 * Em `código` estão os notebooks com os códigos em Python usado para a extração de portarias e para os cálculos de vazão.
-* No repositório `visualização` estão os arquivos CSV utilizados para a produção dos infográficos no [flourish.studio](https://flourish.studio/)
 
 ## Metodologia da análise de dados:
 ### 1) Coleta/extração das portarias do Diário Oficial da Bahia
