@@ -1,5 +1,5 @@
 ## Os privilegiados da água no cerrado baiano
-Repositório para documentar os dados e a metodologia da análise de dados da reportagem "**Os privilegiados da água no cerrado baiano**" publicada pela Agência Pública de Jornalismo Investigativo.
+Repositório para documentar os dados e a metodologia da análise de dados do especial "**Os privilegiados da água no cerrado baiano**" publicada pela **Agência Pública de Jornalismo Investigativo**.
 
 ## Como utilizar este repositório:
 * Em [`dados`](https://github.com/apublica/agua/tree/main/dados) estão as portarias em formato CSV;
