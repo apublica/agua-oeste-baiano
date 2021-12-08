@@ -10,18 +10,25 @@ Repositório para documentar os dados e a metodologia da análise de dados do es
 Inicialmente, as portarias foram coletadas "manualmente", nas edições em html do [Diário Oficial do Estado da Bahia](https://dool.egba.ba.gov.br/) e dos arquivos em PDF (após cadastro no site). O código utilizado pode ser visto no notebook [`extracao_doe_bahia`](https://github.com/apublica/agua/blob/main/c%C3%B3digo/extracao_doe_bahia.ipynb).
 
 ### 2) Busca de expressões regulares:
-A partir do texto das portarias, fizemos a busca com editores de planilhas por expressões comuns na estrutura da portaria, descritas abaixo: 
-* Nº da portaria
-* Data de publicação
-* Documento (CPF ou CNPJ)
-* Nome/Razão social
-* Bacia hidrográfica
-* Município
-* Validade da outorga
-* Vazão (soma de todos os pontos de captação)
-* Finalidade
-* Tipo de captação
-* Decisão (se é autorização, renovação, suspensão, etc)
+A partir do texto das portarias, fizemos a busca com editores de planilhas por expressões comuns na estrutura da portaria, como no exemplo abaixo: 
+
+![alt text](https://github.com/apublica/agua-oeste-baiano/blob/main/INEMA.png)
+
+* A) Número da portaria;
+* B) Data de publicação;
+* C) Decisão (se é autorização, renovação, suspensão, etc);
+* D) Validade da outorga;
+* E) Nome/Razão social
+* F) Documento (CPF ou CNPJ);
+* G) Número do documento;
+* H) Tipo de captação (superficial ou subterrânea);
+* I) Bacia hidrográfica;
+* J) Município de captação;
+* K) Latitude do primeiro ponto de captação;
+* L) Longitude do primeiro ponto de captação;
+* M) Vazão volumétrica;
+* N) Finalidade.
+
 
 ### 3) Padronização do texto e filtros
 A escrita foi padronizada, normalizando grafias diferentes de um mesmo assunto. Em seguida, filtramos as bacias de interesse (Rio Grande, Rio Corrente e Rio São Francisco), municípios do Oeste Baiano e as decisões "Autorizar o direito de uso dos recursos hídricos", "Autorizar a renovação de outorga do direito de uso dos recursos hídricos", "Autorizar sob a forma de Outorga Preventiva a reserva das águas dos recursos hídricos". Em alguns casos, foram incluídas portarias de alteração de outorga, pois modificava uma outra portaria já incluída na análise.
