@@ -1,5 +1,5 @@
-## Os privilegiados da água no cerrado baiano
-Repositório para documentar os dados e a metodologia da análise de dados do especial "**Os privilegiados da água no cerrado baiano**" publicada pela **Agência Pública de Jornalismo Investigativo**.
+## Os privilegiados com a água do Cerrado baiano
+Repositório para documentar os dados e a metodologia da análise de dados do especial "**Os privilegiados com a água do Cerrado baiano**" publicada pela [**Agência Pública de Jornalismo Investigativo**](https://apublica.org/). A reportagem faz parte de um [especial com cinco matérias](link) sobre o uso da água no Cerrado baiano e os impactos desse uso indiscriminado no dia a dia das populações que dependem dos rios que abastecem cada vez mais o agronegócio.
 
 ## Como utilizar este repositório:
 * Em [`dados`](https://github.com/apublica/agua/tree/main/dados) estão as portarias em formato CSV;
@@ -7,10 +7,10 @@ Repositório para documentar os dados e a metodologia da análise de dados do es
 
 ## Metodologia da análise de dados:
 ### 1) Coleta/extração das portarias do Diário Oficial da Bahia
-Inicialmente, as portarias foram coletadas "manualmente", nas edições em html do [Diário Oficial do Estado da Bahia](https://dool.egba.ba.gov.br/) e dos arquivos em PDF (após cadastro no site). O código utilizado pode ser visto no notebook [`extracao_doe_bahia`](https://github.com/apublica/agua/blob/main/c%C3%B3digo/extracao_doe_bahia.ipynb).
+Inicialmente, as portarias foram coletadas "manualmente", nas edições em html do [Diário Oficial do Estado da Bahia](https://dool.egba.ba.gov.br/). Para conferência e atualização dos dados, utilizamos código em Python para extrair o texto de mais de 800 edições do DOE, em PDF. O código utilizado pode ser visto no notebook [`extracao_doe_bahia`](https://github.com/apublica/agua/blob/main/c%C3%B3digo/extracao_doe_bahia.ipynb).
 
 ### 2) Busca de expressões regulares:
-A partir do texto das portarias, fizemos a busca com editores de planilhas por expressões comuns na estrutura da portaria, como no exemplo abaixo: 
+A partir do texto, fizemos a busca com editores de planilhas por expressões comuns na estrutura da portaria, como no exemplo abaixo: 
 
 ![alt text](https://github.com/apublica/agua-oeste-baiano/blob/main/INEMA.png)
 
