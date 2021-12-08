@@ -1,5 +1,5 @@
 ## Os privilegiados com a água do Cerrado baiano
-Repositório para documentar os dados e a metodologia da análise de dados do especial "[**Os privilegiados com a água do Cerrado baiano**]"(https://apublica.org/2021/12/os-privilegiados-com-a-agua-do-cerrado-baiano/) publicada pela [**Agência Pública de Jornalismo Investigativo**](https://apublica.org/). A reportagem faz parte de um especial com cinco matérias sobre o uso da água no Cerrado baiano e os impactos desse uso indiscriminado no dia a dia das populações que dependem dos rios que abastecem cada vez mais o agronegócio.
+Repositório para documentar os dados e a metodologia da análise de dados do especial "[**Os privilegiados com a água do Cerrado baiano**](https://apublica.org/2021/12/os-privilegiados-com-a-agua-do-cerrado-baiano/)" publicada pela [**Agência Pública de Jornalismo Investigativo**](https://apublica.org/). A reportagem faz parte de um especial com cinco matérias sobre o uso da água no Cerrado baiano e os impactos desse uso indiscriminado no dia a dia das populações que dependem dos rios que abastecem cada vez mais o agronegócio.
 
 ## Como utilizar este repositório:
 * Em [`dados`](https://github.com/apublica/agua/tree/main/dados) estão as portarias em formato CSV;
