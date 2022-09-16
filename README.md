@@ -7,7 +7,7 @@ Repositório para documentar os dados e a metodologia da análise de dados do es
 
 ## Metodologia da análise de dados:
 ### 1) Coleta/extração das portarias do Diário Oficial da Bahia
-Inicialmente, as portarias foram coletadas "manualmente", nas edições em html do [Diário Oficial do Estado da Bahia](https://dool.egba.ba.gov.br/). Para conferência e atualização dos dados, utilizamos código em Python para extrair o texto de mais de 800 edições do DOE, em PDF. O código utilizado pode ser visto no notebook [`extracao_doe_bahia`](https://github.com/apublica/agua/blob/main/c%C3%B3digo/extracao_doe_bahia.ipynb).
+Inicialmente, as portarias foram coletadas "manualmente", nas edições em html do [Diário Oficial do Estado da Bahia](https://dool.egba.ba.gov.br/) por uma fonte que cedeu os documentos para a **Agência Pública**. Para conferência e atualização dos dados, utilizamos código em Python para extrair o texto de mais de 800 edições do DOE, em PDF. O código utilizado pode ser visto no notebook [`extracao_doe_bahia`](https://github.com/apublica/agua/blob/main/c%C3%B3digo/extracao_doe_bahia.ipynb).
 
 ### 2) Busca de expressões regulares:
 A partir do texto, fizemos a busca com editores de planilhas por expressões comuns na estrutura da portaria, como no exemplo abaixo: 
